@@ -1,15 +1,28 @@
+* {
+  color: black;
+}
+
+header {
+  background-color: grey;
+}
+
 body {
-  font-family: Arial, sans-serif;
-  background-color: #f0f0f0;
-  padding: 20px;
+  background-color: darkgray;
+}
+#blackbackgroundtext {
+  color: darkgrey;
 }
 
 h1 {
   color: midnightblue;
 }
+@media(max-width: 550px){
+  header {
+    background-color: crimson;
 
-ul {
-  background-color: white;
-  padding: 10px;
-  border-radius: 5px;
+  }
+  footer {
+    background-color: black;
+  }
 }
+
