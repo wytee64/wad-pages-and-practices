@@ -11,6 +11,15 @@ ul {
   justify-content: center;
 }
 
+.f-ptag {
+  margin: 0;
+  padding: 0;
+}
+#f-h2tag {
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
 li {
   list-style: none;
   margin: 0 10px;
