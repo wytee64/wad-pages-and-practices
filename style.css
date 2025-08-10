@@ -1,6 +1,11 @@
 html {
   height: 100%;
 }
+header {
+  display: flex;
+  justify-content: center;
+  border-bottom: solid black 2px;
+}
 ul {
   display: flex;
   justify-content: center;
@@ -52,19 +57,19 @@ img {
 }
 
 footer {
+  border-top: solid black 2px;
   margin-top: auto;
+
 }
 
 @media (max-width: 550px) {
   header {
     background-color:dimgray;
-    border-bottom: solid black 2px;
   }
   
   footer {
     background-color: dimgray;
     color: midnightblue;
     text-align: center;
-    border-top: solid black 2px;
   }
 }
