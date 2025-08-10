@@ -4,7 +4,6 @@ html {
 ul {
   display: flex;
   justify-content: center;
-
 }
 
 li {
@@ -68,5 +67,4 @@ footer {
     text-align: center;
     border-top: solid black 2px;
   }
-
 }
