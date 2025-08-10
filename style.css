@@ -6,6 +6,10 @@ header {
   justify-content: center;
   border-bottom: solid black 2px;
 }
+
+#body {
+  padding: 0 30%;
+}
 ul {
   display: flex;
   justify-content: center;
